@@ -4,9 +4,24 @@
 
 ![](ALSS_web.png)
 
-Splicing all the articles into sentences with spaCy takes almost a day. This resulted in a total of 1.148 million sentences. 
- 
-We connected the consecutive sentence one by one to make the sentence to sentence prediction form of the dataset avoiding the last sentence of a story connected to the start of the other story article. 
-Then those dataset examples were split into 8:1:1 ratio to make train, dev, and test set. 
-After that, we filtered outliers amongst the sentences that are too lengthy (more than 70 tokens) or short (less than 3 tokens) 
-which results in 11.98\% (train/val/test $=$ 11.99\%, 11.99\%, 11.90\%) excluded sentences.
+## quickstart
+> to be written
+
+## crawling
+- asked permission for use (via the twitter, one and only mean of contact), did not responded.
+- crawling code waits 1 seconds after scraping one story to avoid unintended server breakdown.
+
+## post processing
+### sentencizing 
+- We used <code>spaCy</code> to do this.
+- takes ~1 day, 1.148 million sentences. (train/val/test = 8:1:1)
+- We connected the consecutive sentence one by one to make the sentence to sentence prediction form of the dataset
+- avoided connecting end of a story with start of another story. 
+### filtering out
+- filtered out too short (<= 3 tokens), or too long (>= 70 tokens) sentences
+- resulted in 11.98\% of outliers to be excluded (train/val/test = 11.99\%, 11.99\%, 11.90\%)
+
+## specs
+train = 808.34 k sentences
+val = 10.11 k sentences
+test = 10.11 k sentences 
