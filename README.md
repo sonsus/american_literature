@@ -8,6 +8,7 @@
 > to be written
 
 ## crawling
+- python <code>request</code>, <code>beautifulsoup4</code>
 - asked permission for use (via the twitter, one and only mean of contact), did not responded.
 - crawling code waits 1 seconds after scraping one story to avoid unintended server breakdown.
 
