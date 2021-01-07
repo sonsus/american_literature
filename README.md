@@ -22,6 +22,6 @@
 - resulted in 11.98\% of outliers to be excluded (train/val/test = 11.99\%, 11.99\%, 11.90\%)
 
 ## specs
-train = 808.34 k sentences
-val = 10.11 k sentences
+train = 808.34 k sentences     
+val = 10.11 k sentences      
 test = 10.11 k sentences 
