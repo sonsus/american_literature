@@ -1,6 +1,7 @@
 # american_literature
 - crawl, processing code
 - https://americanliterature.com/short-746story-library,
+- Details of the preprocessing and stats on [Supplementary.pdf](https://github.com/sonsus/american_literature/Supplementary.pdf)
 
 ![](ALSS_web.png)
 
